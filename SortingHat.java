@@ -1,9 +1,6 @@
 package SortingHatHogwarts;
 
 
-
-import EJercicio2P5.House;
-
 import java.util.ArrayList;
 
 

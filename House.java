@@ -1,18 +1,20 @@
 package SortingHatHogwarts;
 
-import EJercicio2P5.Criterions.CriterionAnd;
-import EJercicio2P5.Student;
+
+import SortingHatHogwarts.Criterions.CriterionAnd;
+
 
 import java.util.ArrayList;
 
 public class House {
     private String name;
     private House enemyHouse;
-
+    private CriterionAnd requirements;
     private ArrayList<Student> Students;
     private int maxAmountOfStudents;
 
-    public House(String name, House enemyHouse, ArrayList<Student> students, int maxAmountOfStudents) {
+    public House(String name, House enemyHouse, CriterionAnd criterion, ArrayList<Student> students, int maxAmountOfStudents) {
+        this.requirements = criterion;
         this.name = name;
         this.enemyHouse = enemyHouse;
         Students = students;
