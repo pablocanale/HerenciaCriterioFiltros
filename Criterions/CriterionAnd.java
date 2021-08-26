@@ -1,7 +1,7 @@
 package SortingHatHogwarts.Criterions;
 
-import EJercicio2P5.Criterions.Criterion;
-import EJercicio2P5.Student;
+
+import SortingHatHogwarts.Student;
 
 public class CriterionAnd extends Criterion {
     private Criterion c1;
